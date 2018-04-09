@@ -1,2 +1,2 @@
-# lint
-My Linter Options
+# My Options
+Just a "remember me" Repo for Linter Options etc.
