@@ -1,0 +1,91 @@
+{
+    "window.zoomLevel": 0,
+    "git.enableSmartCommit": true,
+    "php.validate.executablePath": "D:/xampp/php/php.exe",
+    "workbench.startupEditor": "newUntitledFile",
+    "gitlens.advanced.messages": {
+      "suppressCommitHasNoPreviousCommitWarning": false,
+      "suppressCommitNotFoundWarning": false,
+      "suppressFileNotUnderSourceControlWarning": false,
+      "suppressGitVersionWarning": false,
+      "suppressLineUncommittedWarning": false,
+      "suppressNoRepositoryWarning": false,
+      "suppressResultsExplorerNotice": false,
+      "suppressShowKeyBindingsNotice": true
+    },
+    "typescript.tsdk": "./node_modules/typescript/lib",
+    "files.exclude": {
+      "**/.git": true,
+      "**/.svn": true,
+      "**/.hg": true,
+      "**/.DS_Store": true,
+      "**/*.js*": {
+        "when": "$(basename).ts"
+      },
+      "**/*.js.map": true
+    },
+    "gitlens.codeLens.scopes": ["document", "containers", "blocks"],
+    "editor.formatOnSave": true,
+    "debug.node.autoAttach": "off",
+    "debug.openDebug": "openOnDebugBreak",
+    "gitlens.defaultDateFormat": "DD.MM.YYYY HH:mm",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "git.autofetch": true,
+    "search.exclude": {
+      "**/node_modules": true,
+      "**/bower_components": true,
+      "**/env": true,
+      "**/venv": true
+    },
+    "typescript.referencesCodeLens.enabled": true,
+    "gitlens.views.fileHistory.enabled": true,
+    "gitlens.views.lineHistory.enabled": true,
+    "debug.internalConsoleOptions": "openOnSessionStart",
+    "files.autoSave": "off",
+    "telemetry.enableTelemetry": false,
+    "files.watcherExclude": {
+      "**/.git/objects/**": true,
+      "**/.git/subtree-cache/**": true,
+      "**/node_modules/**": true,
+      "**/env/**": true,
+      "**/venv/**": true,
+      "env-*": true
+    },
+    "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "workbench.colorTheme": "Visual Studio Dark",
+    "extensions.ignoreRecommendations": false,
+    "todo-tree.highlights.customHighlight": {
+      "TODO": {},
+      "FIXME": {}
+    },
+    "todo-tree.highlights.defaultHighlight": {
+      "foreground": "green",
+      "type": "none"
+    },
+    "todo-tree.tree.flat": true,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "showGitMetrics": false,
+    "terminal.integrated.rendererType": "dom",
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    },
+    "todo-tree.tree.showScanModeButton": false,
+    "terminal.integrated.shell.windows": "E:\\Apps\\PS\\7\\pwsh.exe",
+    "explorer.confirmDragAndDrop": false,
+    "editor.defaultFormatter": "EditorConfig.EditorConfig",
+    "dimmer.enabled": true,
+    "editor.fontFamily": "Fira Code",
+    "editor.fontSize": 16,
+    "editor.fontLigatures": true,
+    "debug.console.fontSize": 16,
+    "terminal.integrated.fontSize": 16,
+    "terminal.integrated.fontFamily": "Fira Code",
+    "explorer.confirmDelete": false,
+    "prettier.requireConfig": true,
+    "[typescriptreact]": {
+      "editor.defaultFormatter": "vscode.typescript-language-features"
+    }
+  }
+  
